@@ -11,7 +11,7 @@ long randBinomial(long n) {
   return(dist(randGen));
 }
 
-int main() {
+int scaling() {
   const long TRIALS = 50000;
   long trial,n;
   long unmatched; // unmatched fish after first round
